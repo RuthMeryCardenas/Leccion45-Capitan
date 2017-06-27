@@ -1,0 +1,41 @@
+.title {
+  background-color: #ebb961;
+  color: white;
+  font-family: "Open Sans", sans-serif; }
+
+.main {
+  background-color: white; }
+  .main .nav {
+    font-family: "Open Sans", sans-serif; }
+    .main .nav li {
+      background-color: #3e3f40;
+      color: white;
+      list-style: none;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem 0; }
+    .main .nav li:nth-child(4) {
+      background-color: #ebb961; }
+
+.content {
+  color: black; }
+  .content h1, .content h4 {
+    font-family: "Open Sans", sans-serif; }
+  .content p, .content ol {
+    font-family: "Nunito", sans-serif; }
+
+.aside {
+  background-color: #3e3f40;
+  color: white;
+  text-align: center; }
+  .aside h2 {
+    font-family: "Open Sans", sans-serif; }
+  .aside p, .aside .content ol, .content .aside ol {
+    font-family: "Nunito", sans-serif; }
+
+.footer {
+  background-color: #3e3f40;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
