@@ -1,0 +1,57 @@
+@import "colors";
+@import "fonts";
+@import "resolutions";
+
+.title {
+  background-color: $primary_color;
+  color: $tertiary_color;
+  font-family: $main-font;
+}
+.main {
+  background-color: $tertiary_color;
+  .nav{
+    font-family: $main-font;
+    li {
+      background-color: $secondary_color;
+      color: $tertiary_color;
+      list-style: none;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem 0;
+    }
+    li:nth-child(4) {
+      background-color: $primary_color;
+    }
+  }
+}
+.content {
+  color: rgb(0, 0, 0);
+  h1{
+    font-family: $main-font;
+  }
+  h4 {
+    @extend h1;
+  }
+  p {
+    font-family: $secondary-font;
+  }
+  ol {
+    @extend p;
+  }
+}
+.aside {
+  background-color: $secondary_color;
+  color: $tertiary_color;
+  text-align: center;
+  h2 {
+    font-family: $main-font;
+  }
+  p{
+    font-family: $secondary-font;
+  }
+}
+.footer {
+  background-color: $secondary_color;
+  color: $tertiary_color;
+  font-family: $secondary-font;
+  text-align: center;
+}
