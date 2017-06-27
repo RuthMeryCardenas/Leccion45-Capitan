@@ -22,9 +22,13 @@ $( _ => {
     if (err) { return alert(err.message);}
     state.students = json;
     const list = $('.list');
-    // console.log(state.students);
-    for (index in state.students){
-      console.log(state.students[index].name);
-    }
+    state.students.forEach(function (students) {
+      console.log(students.name);
+      const checkbox = $("<input type='checkbox'>");
+      const li = $("<li>" + students.name + "</li>");
+
+      li.append(checkbox);
+      list.append(li);
+    });
   });
 });
